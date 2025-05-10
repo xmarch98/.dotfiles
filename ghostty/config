@@ -1,0 +1,28 @@
+#        _               _   _
+#   __ _| |__   ___  ___| |_| |_ _   _
+#  / _` | '_ \ / _ \/ __| __| __| | | |
+# | (_| | | | | (_) \__ \ |_| |_| |_| |
+#  \__, |_| |_|\___/|___/\__|\__|\__, |
+#  |___/                         |___/
+
+# APPEARANCE
+theme = vesper
+font-family = VictorMono
+
+background-opacity = 1
+# background-blur = true
+unfocused-split-opacity = 0.85
+
+# KEYBINDINGS
+# splits
+keybind = ctrl+s>h=new_split:left
+keybind = ctrl+s>j=new_split:down
+keybind = ctrl+s>k=new_split:up
+keybind = ctrl+s>l=new_split:right
+
+# navigation
+keybind = ctrl+h=goto_split:left
+keybind = ctrl+j=goto_split:bottom
+keybind = ctrl+k=goto_split:top
+keybind = ctrl+l=goto_split:right
+
